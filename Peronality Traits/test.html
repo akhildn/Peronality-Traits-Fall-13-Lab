@@ -1,0 +1,352 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+<link rel=stylesheet href="bookanalysis.css" type="text/css">
+<style>
+body
+{
+background-color:#9CF;       
+}
+p
+{
+font-color:black;
+}
+
+.large
+{
+        font-family: times, Times New Roman, times-roman, georgia, serif;
+	color: #444;
+	margin: 0;
+	padding: 0px 0px 6px 0px;
+	font-size: 25px;
+	line-height: 25px;
+	letter-spacing: -2px;
+	font-weight: bold;
+}
+
+
+
+#frame1,#frame2,#frame3,#frame4
+{
+width:1035;
+height:495;
+position:absolute;
+top:162px; 
+right:3px;
+text-align:left;
+background-color:#9CF;  
+}
+</style>
+</head>
+<body>
+<form action="test.php" method="post">
+<div id="header">
+	<div id="LB">
+	<a href="index.html"><img src="logo.jpg" title="logo" height="100" width="150"> </a> 
+	</div>
+ 	<div id="title">
+	<a href="index.html" style="text-decoration: none">
+        <font color="#9CF">	
+    			<h1> Character Analysis </h1>
+        </font>    
+        </a>
+	</div>
+<section id="main_box">
+	<div id="left_box">
+	</br>
+	</br>
+	</br>
+	</br>
+	</br></br></br>
+        <a href="index.html"><button type="button" style="width:100%" style="height:30%">log out</button></a>
+	</div>
+
+<div id="right_box">           
+ <p class="login-submit">
+      <a><button input type="button" name="button" onclick="toggle_visibility('frame1')">FIRST TEST</button></a></br>
+      </br></br>
+      <a><button input type="button" name="button" onclick="toggle_visibility1('frame2')">SECOND TEST</button></a>
+      </br></br></br>
+       <a><button input type="button" name="button" onclick="toggle_visibility2('frame3')">THIRD TEST</button></a>
+      </br></br></br>
+       <a><button input type="button" name="button" onclick="toggle_visibility3('frame4')">FOURTH TEST</button></a>
+    </p>
+
+<div  id="frame1">
+<div class="large">In group</div>
+<input type="radio" name="q1" value=1>
+I try to find a quiet corner
+<input type="radio" name="q1" value=0>
+I like to draw attention to myself
+<div class="large">Iam seen as more of </div>
+<input type="radio" name="q2" value=1>
+A listener
+<input type="radio" name="q2" value=0>
+A Talker</br>
+<div class="large">In discussion i tend to</div>
+<input type="radio" class="small" name="q3" value=0>
+Get involved in a straight way
+<input type="radio" class="small" name="q3" value=1>
+Take more of back seated intially
+<div class="large"> Iam described as </div>
+<input type="radio"  class="small" name="q4" value=0>
+Reserved
+<input type="radio" class="small" name="q4" value=1>
+out going
+<div class="large">I tend to</div>
+<input type="radio" class="small" name="q5" value=0>
+Say what i think
+<input type="radio" class="small"  name="q5" value=1>
+Keep things to my self</br>
+<div class="large">I prefer</div>
+<input type="radio" class="small" name="q6" value=1>
+Quiet thaughtfull time alone
+<input type="radio" class="small" name="q6" value=0>
+Active energetic time with others</br>
+<div class="large"> I prefer</div>
+<input type="radio" class="small" name="q7" value=0>
+Meeting new people
+<input type="radio" class="small" name="q7" value=1>
+Being alone or other person who i know well</br>
+<div class="large">I prefer</div>
+<input type="radio" class="small" name="q8" value=0>
+A new unconsidered issue in group
+<input type="radio" class="small" name="q8" value=1>
+considereing issues in mind and sharing result</br>
+<div class="large">I prefer</div>
+<input type="radio" class="small" name="q9" value=0>
+Being at center of things
+<input type="radio" class="small" name="q9" value=1>
+Being more reserved.</br>
+<button input type="button" name="button" onclick="toggle_visibility1('frame2')">Next..</button>
+</div>
+<div id="frame2">
+<form action="frame2.php" method="post">
+<div class="large">I work best with</div>
+<input type="radio" name="q10" class="small" value=1>
+Abstract Ideas
+<input type="radio" name="q10" class="small" value=0>
+Concrete Facts
+<div class="large">Iam</div>
+<input type="radio" name="q11" value=0>
+Practical
+<input type="radio" name="q11" value=1>
+Forward Thinking</br>
+<div class="large">My approach is to</div>
+<input type="radio" class="small" name="q12" value=1>
+Look at the whole picture
+<input type="radio" class="small" name="q12" value=0>
+Organize the information step by step
+<div class="large"> I tend to value</div>
+<input type="radio"  class="small" name="q13" value=1>
+The new
+<input type="radio" class="small" name="q13" value=0>
+The Familiar
+<div class="large">I tend to adopt</div>
+<input type="radio" class="small" name="q14" value=1>
+A creative approach
+<input type="radio" class="small"  name="q14" value=0>
+A systematic approch</br>
+<div class="large">I prefer</div>
+<input type="radio" class="small" name="q15" value=1>
+Trying to think of new methods of doing tasks
+<input type="radio" class="small" name="q15" value=0>
+using known effective method of doing tasks</br>
+<div class="large"> I have</div>
+<input type="radio" class="small" name="q16" value=0>
+My feet on ground
+<input type="radio" class="small" name="q16" value=1>
+My head in future</br>
+<div class="large">I work best with</div>
+<input type="radio" class="small" name="q17" value=0>
+Details and practical knowledge
+<input type="radio" class="small" name="q17" value=1>
+Ideas and possibilities</br>
+<div class="large">I tend to prefer</div>
+<input type="radio" class="small" name="q18" value=1>
+original thought
+<input type="radio" class="small" name="q18" value=0>
+factual information.</br>
+<button input type="button" name="button" onclick="toggle_visibility('frame1')">Back..</button>
+<button input type="button" name="button" onclick="toggle_visibility2('frame3')">Next..</button>
+</div>
+<div id="frame3">
+<div class="large">Iam seen as having</div>
+<input type="radio" name="q19" class="small" value=0>
+A warm heart
+<input type="radio" name="q19" class="small" value=1>
+A cool head
+<div class="large">My focus tends to be</div>
+<input type="radio" name="q20" value=0>
+The welfare of the people
+<input type="radio" name="q20" value=1>
+I would choose</br>
+<div class="large">In discussion i tend to</div>
+<input type="radio" class="small" name="q21" value=0>
+Tactfulness
+<input type="radio" class="small" name="q21" value=1>
+Truthfulness
+<div class="large"> I tend to prefer </div>
+<input type="radio"  class="small" name="q22" value=1>
+Objectivity
+<input type="radio" class="small" name="q22" value=0>
+Compassion
+<div class="large">I prefer</div>
+<input type="radio" class="small" name="q23" value=1>
+Being thought of as a reasonable person
+<input type="radio" class="small"  name="q23" value=0>
+Being thought of as a feeling person</br>
+<div class="large">I prefer</div>
+<input type="radio" class="small" name="q24" value=1>
+Helping others to make logical decisions
+<input type="radio" class="small" name="q24" value=0>
+Helping others to explore feelings</br>
+<div class="large"> I prefer</div>
+<input type="radio" class="small" name="q25" value=0>
+using common sense and conviction to make decisions
+<input type="radio" class="small" name="q25" value=1>
+Busing information, analysis and reason to make decisions</br>
+<div class="large">I tend to value</div>
+<input type="radio" class="small" name="q26" value=0>
+Appreciation
+<input type="radio" class="small" name="q26" value=1>
+Respect</br>
+<div class="large">I prefer</div>
+<input type="radio" class="small" name="q27" value=1>
+Logical people
+<input type="radio" class="small" name="q27" value=0>
+Feeling people.</br>
+<button input type="button" name="button" onclick="toggle_visibility1('frame2')">Back..</button>
+<button input type="button" name="button" onclick="toggle_visibility3('frame4')">Next..</button>
+</div>  
+<div id="frame4">
+<div class="large">Iam most comfortable</div>
+<input type="radio" name="q28" class="small" value=1>
+once i have made a decision
+<input type="radio" name="q28" class="small" value=0>
+keeping my option open
+<div class="large">I prefer to</div>
+<input type="radio" name="q29" value=1>
+plan
+<input type="radio" name="q29" value=0>
+react</br>
+<div class="large">I tend to be</div>
+<input type="radio" class="small" name="q30" value=0>
+Impulsive
+<input type="radio" class="small" name="q30" value=1>
+Deliberate
+<div class="large"> I prefer my thought process to be </div>
+<input type="radio"  class="small" name="q31" value=1>
+structured
+<input type="radio" class="small" name="q31" value=0>
+meandering
+<div class="large">I prefer</div>
+<input type="radio" class="small" name="q32" value=0>
+flexibility
+<input type="radio" class="small"  name="q32" value=1>
+decisiveness</br>
+<div class="large">I tend to</div>
+<input type="radio" class="small" name="q33" value=0>
+Avoid setting schedules and deadlines
+<input type="radio" class="small" name="q33" value=1>
+create a schedule and stick to it</br>
+<div class="large"> I prefer</div>
+<input type="radio" class="small" name="q34" value=0>
+going with the flow and keeping my options open
+<input type="radio" class="small" name="q34" value=1>
+knowing in advance and predictability</br>
+<div class="large">I prefer </div>
+<input type="radio" class="small" name="q35" value=1>
+</span>planning ahead based on projections
+<input type="radio" class="small" name="q35" value=0>
+planning as necessities arise,just before carring out plans</br>
+<div class="large">I prefer</div>
+<input type="radio" class="small" name="q36" value=0>
+Being free to do things onthe spur of the moment
+<input type="radio" class="small" name="q36" value=1>
+being clear in advance what iam expected to do..</br>
+<button input type="button" name="button" onclick="toggle_visibility2('frame3')">Back..</button>
+<input type="submit" name="submit" value="submit">
+</div>
+</div>
+</section>
+<script type="text/javascript">
+			frame1.style.display='none';
+	  		frame2.style.display='none';
+			frame3.style.display='none';
+			frame4.style.display='none';
+   function toggle_visibility(id) {
+       var e=document.getElementById(id);
+       		if(e.style.display === 'block')
+       		{
+         		 e.style.display = 'none';
+	  		frame2.style.display='none';
+			frame3.style.display='none';
+			frame4.style.display='none';
+       		}
+       		else
+       		{
+         		 e.style.display = 'block';
+	 		 frame2.style.display='none';
+			 frame3.style.display='none';
+			 frame4.syle.display='none';
+       		}
+  	}
+function toggle_visibility1(id) {
+       var e=document.getElementById(id);
+       		if(e.style.display === 'block')
+       		{
+         		 e.style.display = 'none';
+	  		frame1.style.display='none';
+			frame3.style.display='none';
+			frame4.style.display='none';
+       		}
+       		else 
+       		{
+         		 e.style.display = 'block';
+	 		 frame1.style.display='none';
+			 frame3.style.display='none';
+			 frame4.style.display='none';
+       		}
+  	}
+function toggle_visibility2(id) {
+       var e=document.getElementById(id);
+       		if(e.style.display === 'block')
+       		{
+         		 e.style.display = 'none';
+	  		frame1.style.display='none';
+			frame2.style.display='none';
+			frame4.style.display='none';
+       		}
+       		else
+       		{
+         		 e.style.display = 'block';
+	 		 frame1.style.display='none';
+			 frame2.style.display='none';
+			 frame4.style.display='none';
+       		}
+  	}
+function toggle_visibility3(id) {
+       var e=document.getElementById(id);
+       		if(e.style.display === 'block')
+       		{
+         		 e.style.display = 'none';
+	  		frame1.style.display='none';
+			frame2.style.display='none';
+			frame3.style.display='none';
+       		}
+       		else 
+       		{
+         		 e.style.display = 'block';
+	 		 frame1.style.display='none';
+			 frame2.style.display='none';
+			 frame3.style.display='none';
+       		}
+  	}
+
+</script>
+</form>
+</body>
+</html>

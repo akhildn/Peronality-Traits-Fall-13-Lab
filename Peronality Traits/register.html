@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Register</title>
+<link rel="stylesheet" href="register.css" type="text/css">
+</head>
+<body>
+	<form action=addU.php method=POST>
+	<div id="header" >
+		<div id="LB">
+			<a href="index.html"> <img src="logo.jpg" title="logo" height="120" width="256"> </a> 
+		</div>
+  		<div id="title">
+        	<a href="index.html" style="text-decoration: none">
+    		<font color="#9CF">	
+    			<h1> Character Analysis </h1>
+        	</font>    
+            </a>
+  		</div>
+	</div>
+    <section id="main_box">
+    	<div id="left_box">
+        	<br><br><br><br><br><br><br>
+            <a href="guest.html"><button type="button" style="width:100%" style="height:30%">View as guest</button></a>
+            <br><br>
+            <a href="login.html"><button type="button" style="width:100%" style="height:30%">Login</button></a>
+            
+        </div>
+        <div id="right_box">
+        	
+ <h2>Create an Account</h2>
+
+ 
+ 	<fieldset>
+         <p>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" class="text" value="" />
+         </p>
+        
+         <p>
+            <label for="tel">Phone Number</label>
+            <input id="tel" name="tel" type="tel" class="text" value="" />
+         </p>
+        
+         <p>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" class="text" value="" />
+         </p>
+        
+         <p>
+            <label for="password">Password</label>
+            <input id="password" name="password" class="text" type="password" />
+         </p>
+        
+     
+        
+         <p>
+            <input class="registerNew" type="submit"/> 
+         </p>
+ 	</fieldset>
+        
+        
+        </div>
+	</section>
+    </form>
+</body>
+</html>

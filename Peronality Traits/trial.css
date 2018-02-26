@@ -1,0 +1,154 @@
+
+body {
+	
+	clear: both;
+	float: none;
+	height: auto;
+	width: auto;
+	margin: 2px;
+	border-left-style: none;
+	padding-top: 1px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	font: 14px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background: #373737 url(back.jpg) 0 0 repeat;
+}
+
+
+
+#LB{
+	height:30px;
+	width:40px;
+	margin:0.5px;
+	padding:0.5px;
+	float:left;
+	webkit-transition:-webkit-transform 2s, opacity 2s, background 2s, width 2s, height 2s;
+	-moz-transition:-webkit-transform 2s, opacity 2s, background 2s, width 2s, height 2s;
+}
+#LB:hover{
+	-webkit-transform:rotate(325deg);
+	-moz-transform:rotate(325deg);
+	opacity:1;	
+}
+
+#title{
+	border:1px solid black;
+	text-align:center;
+	font:24px "Comic Sans MS" ;
+	text-shadow:rgb(110,110,110) 5px 5px 7px;
+	background-image:url(bg.png);
+        height:100;
+}
+#main_box{
+	width:100%;
+	height:100%;
+	display:-webkit-box;
+	display:-moz-box;
+	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	-webkit-box-pack:start;
+	-moz-box-pack:start;
+	
+}
+#left_box{
+	border:2px solid black;
+	padding:2px;
+	margin:2px;
+	height:615px;
+	-webkit-box-flex:0;
+	-moz-box-flex:0;
+	vertical-align:middle;
+	width:150px;
+	
+	
+}
+#right_box{
+	border:2px solid black;
+	padding:2px;
+	margin:2px;
+	height:615px;
+	-webkit-box-flex:1;
+	-moz-box-flex:1;
+		
+}
+
+button{
+    background-repeat:round;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	-webkit-border-radius:25px;	
+	-moz-border-radius:25px;
+	box-shadow:rgb(110,110,110) 3px 3px 3px inset;
+	font-size:18px;
+	background-color:#FFF;
+}	
+
+button:hover{
+	color:blue;	
+}
+table{
+	border-collapse:separate; 
+	 
+}
+table, th, td {
+   border: 1px solid black;
+} 
+
+input, button, label {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input[type=text], input[type=password] {
+  padding: 0 10px;
+  width: 300px;
+  height: 40px;
+  color: black;
+  background: white;
+  border: 0;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.06);
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.06);
+}
+
+label {
+   
+  width: 100px;
+  line-height: 40px;
+  padding-right: 1px;
+  font-weight: 100;
+
+  letter-spacing: 1px;
+}
+
+.login-button{
+	font-size:14px bold;	
+    background-repeat:round;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	-webkit-border-radius:25px;	
+	-moz-border-radius:25px;
+	box-shadow:rgb(110,110,110) 3px 3px 3px inset;
+	font-size:18px;
+	background-color:#FFF;
+
+}
+
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+a
+{
+float:left;
+}
